@@ -1,0 +1,12 @@
+GET {{url}}get/1
+Content-Type: application/json
+
+###
+POST {{url}}post
+Content-Type: application/json
+
+{
+  "id": 1,
+  "credits": "100"
+}
+
